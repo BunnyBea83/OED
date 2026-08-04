@@ -93,6 +93,7 @@ const LocaleTranslationData = {
 		"conversion.delete.simulation.error": "There was an error simulating the deletion of this conversion. Please try again later.",
 		"conversion.delete.suffix.disable": "Deleting this suffix conversion will disable use of suffix",
 		"conversion.delete.suffix.units.to.delete": "The following units will also be deleted",
+		"conversion.delete.suffix.conversions.to.delete": "The following conversions will also be deleted",
 		"conversion.delete.suffix.dependencies.warning": "Warning: Some meters or groups depend on units that will be affected",
 		"conversion.delete.suffix.meters.affected": "Affected meters",
 		"conversion.delete.suffix.groups.affected": "Affected groups",

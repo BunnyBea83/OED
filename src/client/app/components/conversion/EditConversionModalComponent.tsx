@@ -302,7 +302,7 @@ export default function EditConversionModalComponent(props: EditConversionModalC
 						<span className="bold">{translate('conversion.delete.suffix.units.to.delete')}:</span>
 						<ul>
 							{suffixTypeUnitsToDelete.map(u => (
-								<li key={u.id}>"{u.name}" ({u.identifier})</li>
+								<li key={u.id}>"{u.name}"</li>
 							))}
 						</ul>
 					</div>
