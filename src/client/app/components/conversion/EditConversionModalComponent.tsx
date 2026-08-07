@@ -373,10 +373,12 @@ export default function EditConversionModalComponent(props: EditConversionModalC
 										<div key={name}>"{name}"</div>
 									))}
 								</div>
-								<span className="bold">{translate('conversion.delete.lost.units')}: </span>
-								{lostUnits.map((id: number, i: number) => (
-									<span key={id}>"{unitDataById[id]?.name || id}"{i < lostUnits.length - 1 ? ', ' : ''}</span>
-								))}
+								<span className="bold">{translate('conversion.delete.lost.units')}:</span>
+<ul>
+	{lostUnits.map((id: number) => (
+		<li key={id}>"{unitDataById[id]?.name || id}"</li>
+	))}
+</ul>
 								<br /><br />
 							</div>
 						);
@@ -402,10 +404,12 @@ export default function EditConversionModalComponent(props: EditConversionModalC
 										<div key={name}>"{name}"</div>
 									))}
 								</div>
-								<span className="bold">{translate('conversion.delete.lost.units')}: </span>
-								{lostUnits.map((id: number, i: number) => (
-									<span key={id}>"{unitDataById[id]?.name || id}"{i < lostUnits.length - 1 ? ', ' : ''}</span>
-								))}
+							<span className="bold">{translate('conversion.delete.lost.units')}:</span>
+<ul>
+	{lostUnits.map((id: number) => (
+		<li key={id}>"{unitDataById[id]?.name || id}"</li>
+	))}
+</ul>
 								<br /><br />
 							</div>
 						);
